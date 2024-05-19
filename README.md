@@ -19,7 +19,7 @@
   
 第二行 为程序的设置参数，采用`Python`字典类型格式，分别控制了程序打开时默认的暗色模式(`darkMode: True | False = True`)、简略模式级别(`compressLevel: int = 0`)、窗口大小(`screenSize: tuple[int, int] = (600, 600)`)、是否跟进计划(`doTimetableSearch: True | False = True`)。这些参数都仅影响运行程序时的初始设置，可以在程序内手动调整。另有一参数`textFonts`，记录程序中用到的5种字体在Windows系统中的 .ttf 文件路径，如遇到电脑恰缺失某种字体，则可以用另一字体进行手动替换。  
 
-第三行 为固定字符：`# Timetable Version: 1`，用以标识版本。  
+第三行 为固定字符：`# Timetable version: 1`，用以标识版本。  
 
 参数文件内容的修改尚未实现图形化操作界面，将在不久后加入。DayDayUp_Clock正式版 1.1 的参数文件格式相比之前版本有较大变动。若想对之前版本的参数文件进行一键升级，请将`timetableUpgrader_0_to_1.exe`置于待升级的`timetable.txt`同目录下，运行后弹出窗口提示升级成功，即在同目录下生成一个`timetable1.txt`文件。  
 ***注意：如果在该文件中需用到中文字符，须将文件编码格式设置为`GBK`或`ANSI`，否则会导致乱码或崩溃！***  

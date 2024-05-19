@@ -37,7 +37,7 @@ class File_Manager():
             file_timetable=open(self.path_timetable)
         except:
             file_timetable=open(self.path_timetable,'w')
-            file_timetable.write('[[],[],[],[],[],[],[]]\n{\'darkMode\':True,\'compressLevel\':0,\'screenSize\':(600,600),\'doTimetableSearch\':True,\'textFonts\':[\'C:/Windows/Fonts/stxinwei.ttf\',\'C:/Windows/Fonts/roccb___.ttf\',\'C:/Windows/Fonts/simhei.ttf\',\'C:/Windows/Fonts/rock.ttf\',\'C:/Windows/Fonts/stzhongs.ttf\']}')
+            file_timetable.write('[[],[],[],[],[],[],[]]\n{\'darkMode\':True,\'compressLevel\':0,\'screenSize\':(600,600),\'doTimetableSearch\':True,\'textFonts\':[\'C:/Windows/Fonts/stxinwei.ttf\',\'C:/Windows/Fonts/roccb___.ttf\',\'C:/Windows/Fonts/simhei.ttf\',\'C:/Windows/Fonts/rock.ttf\',\'C:/Windows/Fonts/stzhongs.ttf\']}\n# Timetable version: 1')
             file_timetable.close()
             file_timetable=open(self.path_timetable)
         

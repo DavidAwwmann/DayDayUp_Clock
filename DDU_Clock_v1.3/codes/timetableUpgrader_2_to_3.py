@@ -43,7 +43,7 @@ try:
     newSettings['backgroundImgPaths'] = ['','']
     newSettings['backgroundAlpha'] = 60
     newSettings['language'] = 'Chinese中文'
-    newSettings['timeOffset'] = (0,0,0,0,0)
+    newSettings['timeOffset'] = [0,0,0,0,0]
     newSettings['sidebarDisplayStyle'] = 0
     newSettings['columnarGapMergeThreshold'] = 2401
     newSettings['retrenchMode'] = False

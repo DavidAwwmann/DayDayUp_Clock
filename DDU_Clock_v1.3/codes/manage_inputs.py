@@ -54,7 +54,7 @@ class File_Manager():
             file_timetable=open(self.path_timetable)
         except:
             file_timetable=open(self.path_timetable,'w')
-            file_timetable.write('[[],[],[],[],[],[],[]]\n{\'darkMode\':True,\'compressLevel\':0,\'screenSize\':(600,600),\'doTimetableSearch\':True,\'textFonts\':[\'C:/Windows/Fonts/stxinwei.ttf\',\'C:/Windows/Fonts/roccb___.ttf\',\'C:/Windows/Fonts/simhei.ttf\',\'C:/Windows/Fonts/rock.ttf\',\'C:/Windows/Fonts/stzhongs.ttf\'],\'colorfuncs\':[[\'(47/51)*x+20\',\'(15/17)*x+20\',\'(38/51)*x+20\'],[\'(-41/51)*x+225\',\'(-41/51)*x+225\',\'(-41/51)*x+225\']],\'doBackgroundImgDisplay\':[False,False],\'backgroundImgPaths\':[\'\',\'\'],\'backgroundAlpha\':60,\'language\': \'Chinese中文\',\'timeOffset\': (0,0,0,0,0), \'sidebarDisplayStyle\': 0, \'columnarGapMergeThreshold\': 2401, \'retrenchMode\': False, \'maxTps\': 60}\n# Timetable version: 3')
+            file_timetable.write('[[],[],[],[],[],[],[]]\n{\'darkMode\':True,\'compressLevel\':0,\'screenSize\':(600,600),\'doTimetableSearch\':True,\'textFonts\':[\'C:/Windows/Fonts/stxinwei.ttf\',\'C:/Windows/Fonts/roccb___.ttf\',\'C:/Windows/Fonts/simhei.ttf\',\'C:/Windows/Fonts/rock.ttf\',\'C:/Windows/Fonts/stzhongs.ttf\'],\'colorfuncs\':[[\'(47/51)*x+20\',\'(15/17)*x+20\',\'(38/51)*x+20\'],[\'(-41/51)*x+225\',\'(-41/51)*x+225\',\'(-41/51)*x+225\']],\'doBackgroundImgDisplay\':[False,False],\'backgroundImgPaths\':[\'\',\'\'],\'backgroundAlpha\':60,\'language\': \'Chinese中文\',\'timeOffset\': [0,0,0,0,0], \'sidebarDisplayStyle\': 0, \'columnarGapMergeThreshold\': 2401, \'retrenchMode\': False, \'maxTps\': 60}\n# Timetable version: 3')
             file_timetable.close()
             file_timetable=open(self.path_timetable)
         
